@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Music App</title>
+</head>
+
+<body>
+    <header>
+        <div class="menu_side">
+            <h1>PLAYLIST</h1>
+            <div class="playlist">
+                <h4 class="active"><span></span><i class="bi bi-music-note-beamed"></i> Playlist</h4>
+                <h4><span></span><i class="bi bi-music-note-beamed"></i>Trending</h4>
+                <h4><span></span><i class="bi bi-music-note-beamed"></i> Collection</h4>
+            </div>
+            <div class="menu_song">
+                <li class="songItem">
+                    <span>01</span>
+                    <img src="1.jpg" alt="Romy">
+                    <h5>
+                        Sanu Kehndi
+                        <div class="subtitle">Romy ,Brijesh Sandilya</div>
+                    </h5>
+                    <i class="bi playListPlay bi-play-circle-fill" id="1"></i>
+                </li>
+                <li class="songItem">
+                    <span>02</span>
+                    <img src="2.jpg" alt="Parichay">
+                    <h5>
+                        Jeeya Mar Ke Tum Mile Dil Khile
+                        <div class="subtitle">Parichay, Jonita Gandhi</div>
+                    </h5>
+                    <i class="bi playListPlay bi-play-circle-fill" id="2"></i>
+                </li>
+                <li class="songItem">
+                    <span>03</span>
+                    <img src="3.jpg" alt="Randhawa">
+                    <h5>
+                        Enni Soni
+                        <div class="subtitle">Guru Randhawa, Tulsi Kumar</div>
+                    </h5>
+                    <i class="bi playListPlay bi-play-circle-fill" id="3"></i>
+                </li>
+                <li class="songItem">
+                    <span>04</span>
+                    <img src="4.jpg" alt="Honey Singh">
+                    <h5>
+                        Call Aundi Hain
+                        <div class="subtitle">Yo Yo Honey Singh</div>
+                    </h5>
+                    <i class="bi playListPlay bi-play-circle-fill" id="4"></i>
+                </li>
+                <li class="songItem">
+                    <span>05</span>
+                    <img src="5.jpg" alt="Flint J">
+                    <h5>
+                        Aashiqan de seene
+                        <div class="subtitle">Flint J</div>
+                    </h5>
+                    <i class="bi playListPlay bi-play-circle-fill" id="5"></i>
+                </li>
+                <li class="songItem">
+                    <span>06</span>
+                    <img src="6.jpg" alt="Garry">
+                    <h5>
+                        Ve akhiyan ne tadap rahiyan
+                        <div class="subtitle">Garry Sandhu</div>
+                    </h5>
+                    <i class="bi playListPlay bi-play-circle-fill" id="6"></i>
+                </li>
+                
+
+
+            </div>
+        </div>
+
+        <div class="song_side">
+            <nav>
+                <div class="search">
+                    <i class="bi bi-search"></i>
+                    <input type="text" placeholder="Search Music...">
+                </div>
+                <div class="user">
+                    <img src="DP.jpg" alt="">
+                </div>
+            </nav>
+            <div class="content">
+                <h1>New Songs</h1>
+                <div class="buttons">
+                    <button>UNFOLLOW</button>
+                    <button>FOLLOW</button>
+                </div>
+            </div>
+            <div class="popular_song">
+                <div class="h4">
+                    <h4>Popular Songs</h4>
+                    <div class="btn_s">
+                        <i id="left_scroll" class="bi bi-arrow-left-short"></i>
+                        <i id="right_scroll" class="bi bi-arrow-right-short"></i>
+                    </div>
+                </div>
+                <div class="pop_song">
+                    <li class="songItem">
+                        <div class="img_play">
+                            <img src="7.jpg" alt="Aaslam">
+                            <i class="bi playListPlay bi-play-circle-fill" id="7"></i>
+                        </div>
+                        <h5>Kaise jiyunga Kaise
+                            <br>
+                            <div class="subtitle"> Atif Aaslam </div>
+                        </h5>
+                    </li>
+                    <li class="songItem">
+                        <div class="img_play">
+                            <img src="8.jpg" alt="KHURRANA">
+                            <i class="bi playListPlay bi-play-circle-fill" id="8"></i>
+
+                        </div>
+                        <h5>Baitha kinni door main
+                            <br>
+                            <div class="subtitle"> AYUSHMANN KHURRANA </div>
+                        </h5>
+                    </li>
+                    <li class="songItem">
+                        <div class="img_play">
+                            <img src="9.jpg" alt="Arijit">
+                            <i class="bi playListPlay bi-play-circle-fill" id="9"></i>
+                        </div>
+                        <h5>Agar Tum Saath Ho
+                            <br>
+                            <div class="subtitle">Alka Yagnik, Arijit Singh</div>
+                        </h5>
+                    </li>
+                    <li class="songItem">
+                        <div class="img_play">
+                            <img src="10.jpg" alt="Bankim">
+                            <i class="bi playListPlay bi-play-circle-fill" id="10"></i>
+                        </div>
+                        <h5>Vande Mataram
+                            <br>
+                            <div class="subtitle">Bankim Chandra Chatterjee</div>
+                        </h5>
+                    </li>
+
+                    <li class="songItem">
+                        <div class="img_play">
+                            <img src="11.jpg" alt="alan">
+                            <i class="bi playListPlay bi-play-circle-fill" id="11"></i>
+                        </div>
+                        <h5>Milegi Milegi
+                            <br>
+                            <div class="subtitle">Mika Singh , Sachin Jigar</div>
+                        </h5>
+                    </li>
+                    <li class="songItem">
+                        <div class="img_play">
+                            <img src="12.jpg" alt="Samrat">
+                            <i class="bi playListPlay bi-play-circle-fill" id="12"></i>
+                        </div>
+                        <h5>Bichde Kisi Da Na Yaar
+                            <br>
+                            <div class="subtitle">Samrat Sarkar</div>
+                        </h5>
+                    </li>
+                    <li class="songItem">
+                        <div class="img_play">
+                            <img src="13.jpg" alt="alan">
+                            <i class="bi playListPlay bi-play-circle-fill" id="13"></i>
+                        </div>
+                        <h5>On My Way
+                            <br>
+                            <div class="subtitle">Alan Walker</div>
+                        </h5>
+                    </li>
+                    <li class="songItem">
+                        <div class="img_play">
+                            <img src="14.jpg" alt="Neha Kakkar">
+                            <i class="bi playListPlay bi-play-circle-fill" id="14"></i>
+                        </div>
+                        <h5>Dilbar
+                            <br>
+                            <div class="subtitle"> Neha Kakkar,Dhvani Bhanushali </div>
+                        </h5>
+                    </li>
+                    <li class="songItem">
+                        <div class="img_play">
+                            <img src="15.jpg" alt="KAKA">
+                            <i class="bi playListPlay bi-play-circle-fill" id="15"></i>
+                        </div>
+                        <h5>Main-Bhola-Parbat-Ka-Re
+                            <br>
+                            <div class="subtitle"> KAKA </div>
+                        </h5>
+                    </li>
+                </div>
+            </div>
+
+
+
+            <div class="popular_artists">
+                <div class="h4">
+                    <h4>Popular Artists</h4>
+                    <div class="btn">
+                        <i class="bi bi-arrow-left-short" id="pop_song_left"></i>
+                        <i class="bi bi-arrow-right-short" id="pop_song_right"></i>
+                    </div>
+                </div>
+                <div class="item">
+                    <li>
+                        <img src="jubin Nautiyal.jpg" alt="">
+                    </li>
+                    <li>
+                        <img src="akhil.jpg" alt="">
+                    </li>
+                    <li>
+                        <img src="arjit.jpg" alt="">
+                    </li>
+                    <li>
+                        <img src="alan.jpg" alt="">
+                    </li>
+                    <li>
+                        <img src="atif.jpg" alt="">
+                    </li>
+                    <li>
+                        <img src="guru.jpg" alt="">
+                    </li>
+                    <li>
+                        <img src="Diljit_Dosanjh.jpg" alt="">
+                    </li>
+                    <li>
+                        <img src="dhvani.jpg" alt="">
+                    </li>
+                    <li>
+                        <img src="honey.jpg" alt="">
+                    </li>
+                    <li>
+                        <img src="justin-bieber.jpg" alt="">
+                    </li>
+                    <li>
+                        <img src="neha.jpg" alt="">
+                    </li>
+                    <li>
+                        <img src="SonuNigum.jpeg" alt="">
+                    </li>
+                    <li>
+                        <img src="./BgImg/ArijitSingh.jpeg" alt="">
+                    </li>
+                    <li>
+                        <img src="./BgImg/ArijitSingh.jpeg" alt="">
+                    </li>
+                    <li>
+                        <img src="./BgImg/ArijitSingh.jpeg" alt="">
+                    </li>
+                    <li>
+                        <img src="./BgImg/ArijitSingh.jpeg" alt="">
+                    </li>
+                    <li>
+                        <img src="./BgImg/ArijitSingh.jpeg" alt="">
+                    </li>
+                    <li>
+                        <img src="./BgImg/ArijitSingh.jpeg" alt="">
+                    </li>
+                    <li>
+                        <img src="./BgImg/ArijitSingh.jpeg" alt="">
+                    </li>
+                    <li>
+                        <img src="./BgImg/ArijitSingh.jpeg" alt="">
+                    </li>
+                    <li>
+                        <img src="./BgImg/ArijitSingh.jpeg" alt="">
+                    </li>
+                    <li>
+                        <img src="./BgImg/ArijitSingh.jpeg" alt="">
+                    </li>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+        </div>
+
+
+        <div class="master_play">
+            <div class="wave">
+                <div class="wave1"></div>
+                <div class="wave1"></div>
+                <div class="wave1"></div>
+            </div>
+            <img src="1.jpg" alt="Alan" id="poster_master_play">
+            <h5 id="title">Sanu Kehndi<br>
+                <div class="subtitle">Romy ,Brijesh Sandilya</div>
+            </h5>
+            <div class="icon">
+                <i class="bi bi-skip-start-fill" id="back"></i>
+                <i class="bi bi-play-fill" id="masterPlay"></i>
+                <i class="bi bi-skip-end-fill" id="next"></i>
+            </div>
+            <span id="currentStart">0:00</span>
+            <div class="bar">
+                <input type="range" id="seek" min="0" value="0" max="100">
+                <div class="bar2" id="bar2"></div>
+                <div class="dot"></div>
+            </div>
+            <!-- <span id="currentEnd">0:00</span> -->
+
+            <!-- <div class="vol">
+                <input type="range" id="vol" min="0" value="30" max="100">
+            </div> -->
+        </div>
+    </header>
+    <script src="app.js"></script>
+</body>
+
+</html>
